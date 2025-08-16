@@ -1,0 +1,12 @@
+name: streamlit-ml
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip:
+      - streamlit
